@@ -1,4 +1,4 @@
-# webintent
+# Ionic WebIntent
 Ionic WebIntent Implementation
 
 This is an example on how to implement the Ionic Framework (Capacitor) Native WebIntent
