@@ -1,0 +1,6 @@
+{
+	"appId": "com.gameplay.app1",
+	"appName": "app1",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

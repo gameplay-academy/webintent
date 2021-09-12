@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Web Intent Demo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Web Intent Demo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Web Intent: Browser example</strong>
+    <p><ion-button (click)="callBrowserWebIntent()">Browser Intent</ion-button></p>
+    <br>
+    <strong>Web Intent: Native App example
+    </strong>
+    <p><ion-button (click)="callNativeAppWebIntent()">Native App Intent</ion-button></p>
+    <br>
+    <strong>Web Intent: Custom App
+    </strong>
+    <p><ion-button (click)="callCustomAppIntent()">Custom App Intent</ion-button></p>
+  </div>
+</ion-content>
